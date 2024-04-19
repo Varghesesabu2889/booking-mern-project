@@ -1,0 +1,141 @@
+/* CSS for AdminPanel Component */
+.p-3 {
+    padding: 0.75rem; /* equivalent to Tailwind's p-3 */
+  }
+  
+  .m-auto {
+    margin: auto; /* equivalent to Tailwind's m-auto */
+  }
+  
+  .max-w-md {
+    max-width: 28rem; /* equivalent to Tailwind's max-w-md */
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* equivalent to Tailwind's shadow */
+  }
+  
+  .flex {
+    display: flex; /* equivalent to Tailwind's flex */
+  }
+  
+  .flex-col {
+    flex-direction: column; /* equivalent to Tailwind's flex-col */
+  }
+  
+  .bg-white {
+    background-color: #fff; /* equivalent to Tailwind's bg-white */
+  }
+  
+  .bg-slate-300 {
+    background-color: #718096; /* your custom slate color */
+  }
+  
+  .rounded {
+    border-radius: 0.25rem; /* equivalent to Tailwind's rounded */
+  }
+  
+  .p-1 {
+    padding: 0.25rem; /* equivalent to Tailwind's p-1 */
+  }
+  
+  .my-1 {
+    margin-top: 0.25rem; /* equivalent to Tailwind's my-1 */
+    margin-bottom: 0.25rem;
+  }
+  
+  .w-full {
+    width: 100%; /* equivalent to Tailwind's w-full */
+  }
+  
+  .h-40 {
+    height: 10rem; /* equivalent to Tailwind's h-40 */
+  }
+  
+  .text-7xl {
+    font-size: 5rem; /* equivalent to Tailwind's text-7xl */
+  }
+  
+  .cursor-pointer {
+    cursor: pointer; /* equivalent to Tailwind's cursor-pointer */
+  }
+  
+  /* Styling for input elements */
+  input[type='text'],
+  input[type='number'],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  input[type='text']:focus,
+  input[type='number']:focus,
+  textarea:focus {
+    outline: 0;
+    border-color: #63b3ed;
+  }
+  
+  /* Styling for select element */
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20fill%3D%22%239DA5AB%22%20d%3D%22M14.3%2010.7c-.4-.4-1-.4-1.4%200l-3%203c-.4.4-.4%201%200%201.4s1%20.4%201.4%200l2.3-2.3%202.3%202.3c.4.4%201%20.4%201.4%200s.4-1%200-1.4l-3-3z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 0.5rem top 50%;
+    background-size: 1.5em auto;
+  }
+  
+  /* Styling for button element */
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #dc2626;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  .photo-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .photo-input input[type='file'] {
+    display: none;
+  }
+  
+  .photo-input label {
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .photo-input .cloud-icon {
+    font-size: 3rem;
+    color: #718096;
+  }
+  .Description{
+    resize: none;
+  }
